@@ -1,1 +1,1 @@
-calculates the shortest path between vertices using Dijkstra's shortest path algorithm and a binary heap
+calculates the shortest path from a source to each vertice using Dijkstra's algorithm and a binary heap
