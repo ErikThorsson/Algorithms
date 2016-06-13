@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+//testing testing testing
 
 public class Parse {
 	private int n = 0;
@@ -19,7 +20,7 @@ public class Parse {
 		int v = 0,count = 0;
 		Vertex[][] vertices = null;
 
-		try(BufferedReader br = new BufferedReader(new FileReader("/Users/erikorndahl/Desktop/Algo/25000.txt"))) {
+		try(BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\eorndahl\\Documents\\gitTest\\25000.txt"))) {
 			StringBuilder sb = new StringBuilder();
 			String line = br.readLine();
 			boolean inside = false;
